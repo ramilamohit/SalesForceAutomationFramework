@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SFSuite" class="navigator-link">
+              <span class="suite-name border-failed">SFSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SFSuite" class="navigator-link ">
+                    <span>C:\Eclipseworkspacenew\SeleniumAutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SFSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SFSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SFSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SFSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SFSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SFSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 4 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SFSuite" class="hide-methods failed suite-SFSuite"> (hide)</a> <!-- hide-methods failed suite-SFSuite -->
+                      <a href="#" panel-name="suite-SFSuite" class="show-methods failed suite-SFSuite"> (show)</a> <!-- show-methods failed suite-SFSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SFSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC14CreateAccountReport">TC14CreateAccountReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLeadsAutomationScripts" class="method navigator-link" hash-for-method="TC22defaultView">TC22defaultView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC31CancelButton">TC31CancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFRandomScenarios" class="method navigator-link" hash-for-method="TC37">TC37</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SFSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SFSuite" class="hide-methods passed suite-SFSuite"> (hide)</a> <!-- hide-methods passed suite-SFSuite -->
+                      <a href="#" panel-name="suite-SFSuite" class="show-methods passed suite-SFSuite"> (show)</a> <!-- show-methods passed suite-SFSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SFSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFUserMenuDropdown" class="method navigator-link" hash-for-method="TC05SelectUserMenu">TC05SelectUserMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFUserMenuDropdown" class="method navigator-link" hash-for-method="TC06MyProfile">TC06MyProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFUserMenuDropdown" class="method navigator-link" hash-for-method="TC07MySettings">TC07MySettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFUserMenuDropdown" class="method navigator-link" hash-for-method="TC08DeveloperConsole">TC08DeveloperConsole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFUserMenuDropdown" class="method navigator-link" hash-for-method="TC09LogOut">TC09LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC10CreateAccount">TC10CreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC10CreateAccountTab">TC10CreateAccountTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC11Createnewview">TC11Createnewview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC12Editview">TC12Editview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFAccountAutomationScripts" class="method navigator-link" hash-for-method="TC13MergeAccounts">TC13MergeAccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFOptyAutomationScripts" class="method navigator-link" hash-for-method="TC15_OpportunityView">TC15_OpportunityView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFOptyAutomationScripts" class="method navigator-link" hash-for-method="TC16CreateNewOpty">TC16CreateNewOpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFOptyAutomationScripts" class="method navigator-link" hash-for-method="TC17OpportunityPipelineReport">TC17OpportunityPipelineReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFOptyAutomationScripts" class="method navigator-link" hash-for-method="TC18StuckOpportunityReport">TC18StuckOpportunityReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFOptyAutomationScripts" class="method navigator-link" hash-for-method="TC19QuarterlySummaryReport">TC19QuarterlySummaryReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLoginAutomationScript" class="method navigator-link" hash-for-method="TC1ErrormsgEmptyPassword">TC1ErrormsgEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLeadsAutomationScripts" class="method navigator-link" hash-for-method="TC20leadsTab">TC20leadsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLeadsAutomationScripts" class="method navigator-link" hash-for-method="TC21leadsSelectView">TC21leadsSelectView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLeadsAutomationScripts" class="method navigator-link" hash-for-method="TC23Leadviewcheck">TC23Leadviewcheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLeadsAutomationScripts" class="method navigator-link" hash-for-method="TC24LeadNewButton">TC24LeadNewButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC25CreateNewContact">TC25CreateNewContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC26CreateNewView">TC26CreateNewView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC28MyContacts">TC28MyContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC29ViewContactPage">TC29ViewContactPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLoginAutomationScript" class="method navigator-link" hash-for-method="TC2HomepageDisplay">TC2HomepageDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC30Errormsg">TC30Errormsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFContact" class="method navigator-link" hash-for-method="TC32SaveNewButton">TC32SaveNewButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFRandomScenarios" class="method navigator-link" hash-for-method="TC33">TC33</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFRandomScenarios" class="method navigator-link" hash-for-method="TC34">TC34</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFRandomScenarios" class="method navigator-link" hash-for-method="TC35">TC35</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFRandomScenarios" class="method navigator-link" hash-for-method="TC36">TC36</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLoginAutomationScript" class="method navigator-link" hash-for-method="TC3RememberCheckboxUsername">TC3RememberCheckboxUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLoginAutomationScript" class="method navigator-link" hash-for-method="TC4AForgotPassword">TC4AForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SFSuite" title="com.Salesforce.automationscripts.SFLoginAutomationScript" class="method navigator-link" hash-for-method="TC4BErrormsgWrongIdPassword">TC4BErrormsgWrongIdPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SFSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SFSuite" class="panel SFSuite">
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC31CancelButton">
+                  </a> <!-- TC31CancelButton -->
+                  <span class="method-name">TC31CancelButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&quot;Contact_Tab&quot;]/a&quot;}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ROLOOPG&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e89bc788163d7eb50b38894aa08ad63
+*** Element info: {Using=xpath, value=//li[@id=&quot;Contact_Tab&quot;]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Salesforce.automationscripts.SFContact.TC31CancelButton(SFContact.java:207)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFLeadsAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22defaultView">
+                  </a> <!-- TC22defaultView -->
+                  <span class="method-name">TC22defaultView</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;Leads&quot;}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ROLOOPG&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38c564519397b928ecedde95d3ea1a68
+*** Element info: {Using=partial link text, value=Leads}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+	at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Salesforce.automationscripts.SFLeadsAutomationScripts.TC22defaultView(SFLeadsAutomationScripts.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFRandomScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC37">
+                  </a> <!-- TC37 -->
+                  <span class="method-name">TC37</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class=&apos;calDays&apos;]/tbody/tr/td[text()=&apos;06&apos;]&quot;}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ROLOOPG&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a680e27f741a1e03a72c8d5c130701f2
+*** Element info: {Using=xpath, value=//table[@class=&apos;calDays&apos;]/tbody/tr/td[text()=&apos;06&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Salesforce.automationscripts.SFRandomScenarios.TC37(SFRandomScenarios.java:672)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFAccountAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC14CreateAccountReport">
+                  </a> <!-- TC14CreateAccountReport -->
+                  <span class="method-name">TC14CreateAccountReport</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ext\-gen276&quot;}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ROLOOPG&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc40933d9ad78be11b90316e2059a2ed
+*** Element info: {Using=id, value=ext-gen276}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Salesforce.automationscripts.SFAccountAutomationScripts.TC14CreateAccountReport(SFAccountAutomationScripts.java:514)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-failed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25CreateNewContact">
+                  </a> <!-- TC25CreateNewContact -->
+                  <span class="method-name">TC25CreateNewContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC26CreateNewView">
+                  </a> <!-- TC26CreateNewView -->
+                  <span class="method-name">TC26CreateNewView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC28MyContacts">
+                  </a> <!-- TC28MyContacts -->
+                  <span class="method-name">TC28MyContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC29ViewContactPage">
+                  </a> <!-- TC29ViewContactPage -->
+                  <span class="method-name">TC29ViewContactPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC30Errormsg">
+                  </a> <!-- TC30Errormsg -->
+                  <span class="method-name">TC30Errormsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC32SaveNewButton">
+                  </a> <!-- TC32SaveNewButton -->
+                  <span class="method-name">TC32SaveNewButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFLoginAutomationScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1ErrormsgEmptyPassword">
+                  </a> <!-- TC1ErrormsgEmptyPassword -->
+                  <span class="method-name">TC1ErrormsgEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2HomepageDisplay">
+                  </a> <!-- TC2HomepageDisplay -->
+                  <span class="method-name">TC2HomepageDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3RememberCheckboxUsername">
+                  </a> <!-- TC3RememberCheckboxUsername -->
+                  <span class="method-name">TC3RememberCheckboxUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4AForgotPassword">
+                  </a> <!-- TC4AForgotPassword -->
+                  <span class="method-name">TC4AForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4BErrormsgWrongIdPassword">
+                  </a> <!-- TC4BErrormsgWrongIdPassword -->
+                  <span class="method-name">TC4BErrormsgWrongIdPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFRandomScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC33">
+                  </a> <!-- TC33 -->
+                  <span class="method-name">TC33</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC34">
+                  </a> <!-- TC34 -->
+                  <span class="method-name">TC34</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC35">
+                  </a> <!-- TC35 -->
+                  <span class="method-name">TC35</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC36">
+                  </a> <!-- TC36 -->
+                  <span class="method-name">TC36</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFLeadsAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20leadsTab">
+                  </a> <!-- TC20leadsTab -->
+                  <span class="method-name">TC20leadsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21leadsSelectView">
+                  </a> <!-- TC21leadsSelectView -->
+                  <span class="method-name">TC21leadsSelectView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23Leadviewcheck">
+                  </a> <!-- TC23Leadviewcheck -->
+                  <span class="method-name">TC23Leadviewcheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24LeadNewButton">
+                  </a> <!-- TC24LeadNewButton -->
+                  <span class="method-name">TC24LeadNewButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFUserMenuDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05SelectUserMenu">
+                  </a> <!-- TC05SelectUserMenu -->
+                  <span class="method-name">TC05SelectUserMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06MyProfile">
+                  </a> <!-- TC06MyProfile -->
+                  <span class="method-name">TC06MyProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07MySettings">
+                  </a> <!-- TC07MySettings -->
+                  <span class="method-name">TC07MySettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08DeveloperConsole">
+                  </a> <!-- TC08DeveloperConsole -->
+                  <span class="method-name">TC08DeveloperConsole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09LogOut">
+                  </a> <!-- TC09LogOut -->
+                  <span class="method-name">TC09LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFOptyAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_OpportunityView">
+                  </a> <!-- TC15_OpportunityView -->
+                  <span class="method-name">TC15_OpportunityView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC16CreateNewOpty">
+                  </a> <!-- TC16CreateNewOpty -->
+                  <span class="method-name">TC16CreateNewOpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17OpportunityPipelineReport">
+                  </a> <!-- TC17OpportunityPipelineReport -->
+                  <span class="method-name">TC17OpportunityPipelineReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18StuckOpportunityReport">
+                  </a> <!-- TC18StuckOpportunityReport -->
+                  <span class="method-name">TC18StuckOpportunityReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19QuarterlySummaryReport">
+                  </a> <!-- TC19QuarterlySummaryReport -->
+                  <span class="method-name">TC19QuarterlySummaryReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+          <div class="suite-SFSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Salesforce.automationscripts.SFAccountAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10CreateAccount">
+                  </a> <!-- TC10CreateAccount -->
+                  <span class="method-name">TC10CreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10CreateAccountTab">
+                  </a> <!-- TC10CreateAccountTab -->
+                  <span class="method-name">TC10CreateAccountTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11Createnewview">
+                  </a> <!-- TC11Createnewview -->
+                  <span class="method-name">TC11Createnewview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12Editview">
+                  </a> <!-- TC12Editview -->
+                  <span class="method-name">TC12Editview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13MergeAccounts">
+                  </a> <!-- TC13MergeAccounts -->
+                  <span class="method-name">TC13MergeAccounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SFSuite-class-passed -->
+        </div> <!-- panel SFSuite -->
+        <div panel-name="test-xml-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Eclipseworkspacenew\SeleniumAutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SFSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.Salesforce.utilities.SFListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SFTest&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFLoginAutomationScript&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFUserMenuDropdown&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFAccountAutomationScripts&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFContact&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFLeadsAutomationScripts&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFOptyAutomationScripts&quot;/&gt;
+      &lt;class name=&quot;com.Salesforce.automationscripts.SFRandomScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SFTest --&gt;
+&lt;/suite&gt; &lt;!-- SFSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SFTest (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SFSuite');
+function tableData_SFSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC33')
+data.setCell(0, 2, 'com.Salesforce.automationscripts.SFRandomScenarios')
+data.setCell(0, 3, 41993);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC37')
+data.setCell(1, 2, 'com.Salesforce.automationscripts.SFRandomScenarios')
+data.setCell(1, 3, 37536);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC36')
+data.setCell(2, 2, 'com.Salesforce.automationscripts.SFRandomScenarios')
+data.setCell(2, 3, 28906);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC34')
+data.setCell(3, 2, 'com.Salesforce.automationscripts.SFRandomScenarios')
+data.setCell(3, 3, 21899);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC16CreateNewOpty')
+data.setCell(4, 2, 'com.Salesforce.automationscripts.SFOptyAutomationScripts')
+data.setCell(4, 3, 20205);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC06MyProfile')
+data.setCell(5, 2, 'com.Salesforce.automationscripts.SFUserMenuDropdown')
+data.setCell(5, 3, 18871);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC10CreateAccountTab')
+data.setCell(6, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(6, 3, 17016);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC35')
+data.setCell(7, 2, 'com.Salesforce.automationscripts.SFRandomScenarios')
+data.setCell(7, 3, 16639);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC11Createnewview')
+data.setCell(8, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(8, 3, 16513);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC13MergeAccounts')
+data.setCell(9, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(9, 3, 15827);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC07MySettings')
+data.setCell(10, 2, 'com.Salesforce.automationscripts.SFUserMenuDropdown')
+data.setCell(10, 3, 15388);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC10CreateAccount')
+data.setCell(11, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(11, 3, 12298);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC25CreateNewContact')
+data.setCell(12, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(12, 3, 11149);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC08DeveloperConsole')
+data.setCell(13, 2, 'com.Salesforce.automationscripts.SFUserMenuDropdown')
+data.setCell(13, 3, 10621);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC24LeadNewButton')
+data.setCell(14, 2, 'com.Salesforce.automationscripts.SFLeadsAutomationScripts')
+data.setCell(14, 3, 10570);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC14CreateAccountReport')
+data.setCell(15, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(15, 3, 9883);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC12Editview')
+data.setCell(16, 2, 'com.Salesforce.automationscripts.SFAccountAutomationScripts')
+data.setCell(16, 3, 9638);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC19QuarterlySummaryReport')
+data.setCell(17, 2, 'com.Salesforce.automationscripts.SFOptyAutomationScripts')
+data.setCell(17, 3, 9454);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC29ViewContactPage')
+data.setCell(18, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(18, 3, 9083);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC17OpportunityPipelineReport')
+data.setCell(19, 2, 'com.Salesforce.automationscripts.SFOptyAutomationScripts')
+data.setCell(19, 3, 8595);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC18StuckOpportunityReport')
+data.setCell(20, 2, 'com.Salesforce.automationscripts.SFOptyAutomationScripts')
+data.setCell(20, 3, 8383);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC23Leadviewcheck')
+data.setCell(21, 2, 'com.Salesforce.automationscripts.SFLeadsAutomationScripts')
+data.setCell(21, 3, 8136);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC32SaveNewButton')
+data.setCell(22, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(22, 3, 7890);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC3RememberCheckboxUsername')
+data.setCell(23, 2, 'com.Salesforce.automationscripts.SFLoginAutomationScript')
+data.setCell(23, 3, 7756);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC30Errormsg')
+data.setCell(24, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(24, 3, 7744);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC15_OpportunityView')
+data.setCell(25, 2, 'com.Salesforce.automationscripts.SFOptyAutomationScripts')
+data.setCell(25, 3, 7296);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC28MyContacts')
+data.setCell(26, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(26, 3, 7109);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TC09LogOut')
+data.setCell(27, 2, 'com.Salesforce.automationscripts.SFUserMenuDropdown')
+data.setCell(27, 3, 6957);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TC21leadsSelectView')
+data.setCell(28, 2, 'com.Salesforce.automationscripts.SFLeadsAutomationScripts')
+data.setCell(28, 3, 6871);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TC26CreateNewView')
+data.setCell(29, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(29, 3, 6756);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TC2HomepageDisplay')
+data.setCell(30, 2, 'com.Salesforce.automationscripts.SFLoginAutomationScript')
+data.setCell(30, 3, 6361);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TC20leadsTab')
+data.setCell(31, 2, 'com.Salesforce.automationscripts.SFLeadsAutomationScripts')
+data.setCell(31, 3, 6294);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TC05SelectUserMenu')
+data.setCell(32, 2, 'com.Salesforce.automationscripts.SFUserMenuDropdown')
+data.setCell(32, 3, 5735);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TC31CancelButton')
+data.setCell(33, 2, 'com.Salesforce.automationscripts.SFContact')
+data.setCell(33, 3, 4722);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TC22defaultView')
+data.setCell(34, 2, 'com.Salesforce.automationscripts.SFLeadsAutomationScripts')
+data.setCell(34, 3, 4520);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TC1ErrormsgEmptyPassword')
+data.setCell(35, 2, 'com.Salesforce.automationscripts.SFLoginAutomationScript')
+data.setCell(35, 3, 2149);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TC4AForgotPassword')
+data.setCell(36, 2, 'com.Salesforce.automationscripts.SFLoginAutomationScript')
+data.setCell(36, 3, 2044);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TC4BErrormsgWrongIdPassword')
+data.setCell(37, 2, 'com.Salesforce.automationscripts.SFLoginAutomationScript')
+data.setCell(37, 3, 1497);
+window.suiteTableData['SFSuite']= { tableData: data, tableDiv: 'times-div-SFSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-SFSuite">
+              </div> <!-- times-div-SFSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SFSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SFSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFLoginAutomationScript</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC1ErrormsgEmptyPassword</span>
+                <span class="method-start">6560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">8716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">9304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2HomepageDisplay</span>
+                <span class="method-start">11548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">17911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">18310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3RememberCheckboxUsername</span>
+                <span class="method-start">20357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">28115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">28531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4AForgotPassword</span>
+                <span class="method-start">31526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">33572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">33871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4BErrormsgWrongIdPassword</span>
+                <span class="method-start">36442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">37940 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFUserMenuDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">38377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC05SelectUserMenu</span>
+                <span class="method-start">40877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">46614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">47299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC06MyProfile</span>
+                <span class="method-start">50145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">69019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">69671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC07MySettings</span>
+                <span class="method-start">72254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">87643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">88192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08DeveloperConsole</span>
+                <span class="method-start">90577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">101199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">101635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC09LogOut</span>
+                <span class="method-start">103755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">110715 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFAccountAutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">111027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10CreateAccount</span>
+                <span class="method-start">113342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">125641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">125935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10CreateAccountTab</span>
+                <span class="method-start">127931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">144948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">145623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC11Createnewview</span>
+                <span class="method-start">148007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">164523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">164816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC12Editview</span>
+                <span class="method-start">167136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">176774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">177055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC13MergeAccounts</span>
+                <span class="method-start">179462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">195290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">195653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC14CreateAccountReport</span>
+                <span class="method-start">197885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">208015 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">208285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC25CreateNewContact</span>
+                <span class="method-start">210327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">221478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">221934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC26CreateNewView</span>
+                <span class="method-start">224193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">230950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">231375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC28MyContacts</span>
+                <span class="method-start">233486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">240596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">240996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC29ViewContactPage</span>
+                <span class="method-start">243131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">252214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">252562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC30Errormsg</span>
+                <span class="method-start">254837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">262582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">262885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC31CancelButton</span>
+                <span class="method-start">264957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">270609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">270898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC32SaveNewButton</span>
+                <span class="method-start">273205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">281096 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFLeadsAutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">281342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC20leadsTab</span>
+                <span class="method-start">283595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">289890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">290227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC21leadsSelectView</span>
+                <span class="method-start">292469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">299341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">299648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC22defaultView</span>
+                <span class="method-start">301899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">307256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">307583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC23Leadviewcheck</span>
+                <span class="method-start">309982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">318119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">318511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC24LeadNewButton</span>
+                <span class="method-start">320850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">331421 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFOptyAutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">331966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC15_OpportunityView</span>
+                <span class="method-start">334057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">341355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">341750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC16CreateNewOpty</span>
+                <span class="method-start">344442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">364648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">364984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC17OpportunityPipelineReport</span>
+                <span class="method-start">367428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">376025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">376235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC18StuckOpportunityReport</span>
+                <span class="method-start">378073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">386457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">386769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC19QuarterlySummaryReport</span>
+                <span class="method-start">388702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">398158 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Salesforce.automationscripts.SFRandomScenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">398506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC33</span>
+                <span class="method-start">400876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">442869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">443194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC34</span>
+                <span class="method-start">445668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">467567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">467946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC35</span>
+                <span class="method-start">470334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">486974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">487427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC36</span>
+                <span class="method-start">489638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">518545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SFBeforeMethod(chrome)</span>
+                <span class="method-start">518900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC37</span>
+                <span class="method-start">520753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SFAfterMethod</span>
+                <span class="method-start">558456 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

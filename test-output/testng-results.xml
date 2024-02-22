@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="34" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T19:40:13 CST" name="SFSuite" finished-at="2024-02-21T19:49:33 CST" duration-ms="559180">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T19:40:13 CST" name="SFTest" finished-at="2024-02-21T19:49:33 CST" duration-ms="559180">
+      <class name="com.Salesforce.automationscripts.SFLoginAutomationScript">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:14 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:20 CST" duration-ms="6559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC1ErrormsgEmptyPassword()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:20 CST" name="TC1ErrormsgEmptyPassword" finished-at="2024-02-21T19:40:22 CST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1ErrormsgEmptyPassword -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:22 CST" name="SFAfterMethod" finished-at="2024-02-21T19:40:23 CST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:23 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:25 CST" duration-ms="2243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC2HomepageDisplay()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:25 CST" name="TC2HomepageDisplay" finished-at="2024-02-21T19:40:32 CST" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2HomepageDisplay -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:32 CST" name="SFAfterMethod" finished-at="2024-02-21T19:40:32 CST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:32 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:34 CST" duration-ms="2047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC3RememberCheckboxUsername()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:34 CST" name="TC3RememberCheckboxUsername" finished-at="2024-02-21T19:40:42 CST" duration-ms="7756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3RememberCheckboxUsername -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:42 CST" name="SFAfterMethod" finished-at="2024-02-21T19:40:42 CST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:42 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:45 CST" duration-ms="2995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC4AForgotPassword()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:45 CST" name="TC4AForgotPassword" finished-at="2024-02-21T19:40:47 CST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4AForgotPassword -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:47 CST" name="SFAfterMethod" finished-at="2024-02-21T19:40:48 CST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:48 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:50 CST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC4BErrormsgWrongIdPassword()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:50 CST" name="TC4BErrormsgWrongIdPassword" finished-at="2024-02-21T19:40:52 CST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4BErrormsgWrongIdPassword -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLoginAutomationScript@68fa0ba8]" started-at="2024-02-21T19:40:52 CST" name="SFAfterMethod" finished-at="2024-02-21T19:40:52 CST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFLoginAutomationScript -->
+      <class name="com.Salesforce.automationscripts.SFAccountAutomationScripts">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:05 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:42:07 CST" duration-ms="2315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC10CreateAccount()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:07 CST" name="TC10CreateAccount" finished-at="2024-02-21T19:42:19 CST" duration-ms="12298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10CreateAccount -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:19 CST" name="SFAfterMethod" finished-at="2024-02-21T19:42:20 CST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:20 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:42:22 CST" duration-ms="1995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC10CreateAccountTab()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:22 CST" name="TC10CreateAccountTab" finished-at="2024-02-21T19:42:39 CST" duration-ms="17016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10CreateAccountTab -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:39 CST" name="SFAfterMethod" finished-at="2024-02-21T19:42:39 CST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:39 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:42:42 CST" duration-ms="2383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC11Createnewview()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:42 CST" name="TC11Createnewview" finished-at="2024-02-21T19:42:58 CST" duration-ms="16513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11Createnewview -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:58 CST" name="SFAfterMethod" finished-at="2024-02-21T19:42:59 CST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:42:59 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:43:01 CST" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC12Editview()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:01 CST" name="TC12Editview" finished-at="2024-02-21T19:43:10 CST" duration-ms="9638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12Editview -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:10 CST" name="SFAfterMethod" finished-at="2024-02-21T19:43:11 CST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:11 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:43:13 CST" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC13MergeAccounts()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:13 CST" name="TC13MergeAccounts" finished-at="2024-02-21T19:43:29 CST" duration-ms="15827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13MergeAccounts -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:29 CST" name="SFAfterMethod" finished-at="2024-02-21T19:43:29 CST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:29 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:43:32 CST" duration-ms="2232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC14CreateAccountReport()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:32 CST" name="TC14CreateAccountReport" finished-at="2024-02-21T19:43:41 CST" duration-ms="9883" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ext\-gen276"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc40933d9ad78be11b90316e2059a2ed
+*** Element info: {Using=id, value=ext-gen276}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ext\-gen276"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc40933d9ad78be11b90316e2059a2ed
+*** Element info: {Using=id, value=ext-gen276}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.Salesforce.automationscripts.SFAccountAutomationScripts.TC14CreateAccountReport(SFAccountAutomationScripts.java:514)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14CreateAccountReport -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFAccountAutomationScripts@435fb7b5]" started-at="2024-02-21T19:43:42 CST" name="SFAfterMethod" finished-at="2024-02-21T19:43:42 CST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFAccountAutomationScripts -->
+      <class name="com.Salesforce.automationscripts.SFUserMenuDropdown">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:40:52 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:40:55 CST" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC05SelectUserMenu()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:40:55 CST" name="TC05SelectUserMenu" finished-at="2024-02-21T19:41:00 CST" duration-ms="5735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05SelectUserMenu -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:00 CST" name="SFAfterMethod" finished-at="2024-02-21T19:41:01 CST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:01 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:41:04 CST" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC06MyProfile()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:04 CST" name="TC06MyProfile" finished-at="2024-02-21T19:41:23 CST" duration-ms="18871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06MyProfile -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:23 CST" name="SFAfterMethod" finished-at="2024-02-21T19:41:23 CST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:23 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:41:26 CST" duration-ms="2583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC07MySettings()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:26 CST" name="TC07MySettings" finished-at="2024-02-21T19:41:41 CST" duration-ms="15388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07MySettings -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:41 CST" name="SFAfterMethod" finished-at="2024-02-21T19:41:42 CST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:42 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:41:44 CST" duration-ms="2384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC08DeveloperConsole()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:44 CST" name="TC08DeveloperConsole" finished-at="2024-02-21T19:41:55 CST" duration-ms="10621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08DeveloperConsole -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:55 CST" name="SFAfterMethod" finished-at="2024-02-21T19:41:55 CST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:55 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:41:57 CST" duration-ms="2120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC09LogOut()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:41:57 CST" name="TC09LogOut" finished-at="2024-02-21T19:42:04 CST" duration-ms="6957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09LogOut -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFUserMenuDropdown@4e858e0a]" started-at="2024-02-21T19:42:04 CST" name="SFAfterMethod" finished-at="2024-02-21T19:42:05 CST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFUserMenuDropdown -->
+      <class name="com.Salesforce.automationscripts.SFLeadsAutomationScripts">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:44:55 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:57 CST" duration-ms="2253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC20leadsTab()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:44:57 CST" name="TC20leadsTab" finished-at="2024-02-21T19:45:04 CST" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20leadsTab -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:04 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:04 CST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:04 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:06 CST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC21leadsSelectView()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:06 CST" name="TC21leadsSelectView" finished-at="2024-02-21T19:45:13 CST" duration-ms="6871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21leadsSelectView -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:13 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:13 CST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:13 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:16 CST" duration-ms="2250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC22defaultView()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:16 CST" name="TC22defaultView" finished-at="2024-02-21T19:45:20 CST" duration-ms="4520" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"Leads"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38c564519397b928ecedde95d3ea1a68
+*** Element info: {Using=partial link text, value=Leads}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Leads"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38c564519397b928ecedde95d3ea1a68
+*** Element info: {Using=partial link text, value=Leads}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.Salesforce.automationscripts.SFLeadsAutomationScripts.TC22defaultView(SFLeadsAutomationScripts.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22defaultView -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:21 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:21 CST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:21 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:24 CST" duration-ms="2399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC23Leadviewcheck()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:24 CST" name="TC23Leadviewcheck" finished-at="2024-02-21T19:45:32 CST" duration-ms="8136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23Leadviewcheck -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:32 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:32 CST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:32 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:35 CST" duration-ms="2338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC24LeadNewButton()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:35 CST" name="TC24LeadNewButton" finished-at="2024-02-21T19:45:45 CST" duration-ms="10570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24LeadNewButton -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFLeadsAutomationScripts@5733f295]" started-at="2024-02-21T19:45:45 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:46 CST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFLeadsAutomationScripts -->
+      <class name="com.Salesforce.automationscripts.SFContact">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:43:42 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:43:44 CST" duration-ms="2042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC25CreateNewContact()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:43:44 CST" name="TC25CreateNewContact" finished-at="2024-02-21T19:43:55 CST" duration-ms="11149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25CreateNewContact -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:43:55 CST" name="SFAfterMethod" finished-at="2024-02-21T19:43:56 CST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:43:56 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:43:58 CST" duration-ms="2258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC26CreateNewView()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:43:58 CST" name="TC26CreateNewView" finished-at="2024-02-21T19:44:05 CST" duration-ms="6756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26CreateNewView -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:05 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:05 CST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:05 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:07 CST" duration-ms="2110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC28MyContacts()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:07 CST" name="TC28MyContacts" finished-at="2024-02-21T19:44:14 CST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC28MyContacts -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:14 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:15 CST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:15 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:17 CST" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC29ViewContactPage()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:17 CST" name="TC29ViewContactPage" finished-at="2024-02-21T19:44:26 CST" duration-ms="9083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC29ViewContactPage -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:26 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:26 CST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:26 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:29 CST" duration-ms="2275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC30Errormsg()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:29 CST" name="TC30Errormsg" finished-at="2024-02-21T19:44:36 CST" duration-ms="7744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC30Errormsg -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:36 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:37 CST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:37 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:39 CST" duration-ms="2071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC31CancelButton()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:39 CST" name="TC31CancelButton" finished-at="2024-02-21T19:44:43 CST" duration-ms="4722" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id="Contact_Tab"]/a"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e89bc788163d7eb50b38894aa08ad63
+*** Element info: {Using=xpath, value=//li[@id="Contact_Tab"]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id="Contact_Tab"]/a"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e89bc788163d7eb50b38894aa08ad63
+*** Element info: {Using=xpath, value=//li[@id="Contact_Tab"]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.Salesforce.automationscripts.SFContact.TC31CancelButton(SFContact.java:207)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC31CancelButton -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:44 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:45 CST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:45 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:44:47 CST" duration-ms="2307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC32SaveNewButton()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:47 CST" name="TC32SaveNewButton" finished-at="2024-02-21T19:44:55 CST" duration-ms="7890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC32SaveNewButton -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFContact@696f0212]" started-at="2024-02-21T19:44:55 CST" name="SFAfterMethod" finished-at="2024-02-21T19:44:55 CST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFContact -->
+      <class name="com.Salesforce.automationscripts.SFRandomScenarios">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:46:52 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:46:55 CST" duration-ms="2370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC33()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:46:55 CST" name="TC33" finished-at="2024-02-21T19:47:37 CST" duration-ms="41993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC33 -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:47:37 CST" name="SFAfterMethod" finished-at="2024-02-21T19:47:37 CST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:47:37 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:47:39 CST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC34()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:47:39 CST" name="TC34" finished-at="2024-02-21T19:48:01 CST" duration-ms="21899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC34 -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:01 CST" name="SFAfterMethod" finished-at="2024-02-21T19:48:02 CST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:02 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:48:04 CST" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC35()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:04 CST" name="TC35" finished-at="2024-02-21T19:48:21 CST" duration-ms="16639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC35 -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:21 CST" name="SFAfterMethod" finished-at="2024-02-21T19:48:21 CST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:21 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:48:23 CST" duration-ms="2211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC36()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:23 CST" name="TC36" finished-at="2024-02-21T19:48:52 CST" duration-ms="28906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC36 -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:52 CST" name="SFAfterMethod" finished-at="2024-02-21T19:48:53 CST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:53 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:48:54 CST" duration-ms="1853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC37()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:48:54 CST" name="TC37" finished-at="2024-02-21T19:49:32 CST" duration-ms="37536" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='calDays']/tbody/tr/td[text()='06']"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a680e27f741a1e03a72c8d5c130701f2
+*** Element info: {Using=xpath, value=//table[@class='calDays']/tbody/tr/td[text()='06']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='calDays']/tbody/tr/td[text()='06']"}
+  (Session info: chrome=122.0.6261.57)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ROLOOPG', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.57, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\ramil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62912}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a680e27f741a1e03a72c8d5c130701f2
+*** Element info: {Using=xpath, value=//table[@class='calDays']/tbody/tr/td[text()='06']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.Salesforce.automationscripts.SFRandomScenarios.TC37(SFRandomScenarios.java:672)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC37 -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFRandomScenarios@56c698e3]" started-at="2024-02-21T19:49:32 CST" name="SFAfterMethod" finished-at="2024-02-21T19:49:33 CST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFRandomScenarios -->
+      <class name="com.Salesforce.automationscripts.SFOptyAutomationScripts">
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:45:46 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:48 CST" duration-ms="2091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC15_OpportunityView()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:45:48 CST" name="TC15_OpportunityView" finished-at="2024-02-21T19:45:55 CST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_OpportunityView -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:45:55 CST" name="SFAfterMethod" finished-at="2024-02-21T19:45:55 CST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:45:55 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:45:58 CST" duration-ms="2692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC16CreateNewOpty()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:45:58 CST" name="TC16CreateNewOpty" finished-at="2024-02-21T19:46:18 CST" duration-ms="20205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16CreateNewOpty -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:18 CST" name="SFAfterMethod" finished-at="2024-02-21T19:46:19 CST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:19 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:46:21 CST" duration-ms="2444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC17OpportunityPipelineReport()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:21 CST" name="TC17OpportunityPipelineReport" finished-at="2024-02-21T19:46:30 CST" duration-ms="8595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17OpportunityPipelineReport -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:30 CST" name="SFAfterMethod" finished-at="2024-02-21T19:46:30 CST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:30 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:46:32 CST" duration-ms="1837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC18StuckOpportunityReport()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:32 CST" name="TC18StuckOpportunityReport" finished-at="2024-02-21T19:46:40 CST" duration-ms="8383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18StuckOpportunityReport -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:40 CST" name="SFAfterMethod" finished-at="2024-02-21T19:46:40 CST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+        <test-method is-config="true" signature="SFBeforeMethod(java.lang.String)[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:40 CST" name="SFBeforeMethod" finished-at="2024-02-21T19:46:42 CST" duration-ms="1933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFBeforeMethod -->
+        <test-method signature="TC19QuarterlySummaryReport()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:42 CST" name="TC19QuarterlySummaryReport" finished-at="2024-02-21T19:46:52 CST" duration-ms="9454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19QuarterlySummaryReport -->
+        <test-method is-config="true" signature="SFAfterMethod()[pri:0, instance:com.Salesforce.automationscripts.SFOptyAutomationScripts@1c3146bc]" started-at="2024-02-21T19:46:52 CST" name="SFAfterMethod" finished-at="2024-02-21T19:46:52 CST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFAfterMethod -->
+      </class> <!-- com.Salesforce.automationscripts.SFOptyAutomationScripts -->
+    </test> <!-- SFTest -->
+  </suite> <!-- SFSuite -->
+</testng-results>
